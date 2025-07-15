@@ -4,12 +4,12 @@
   "description": "A web platform providing educational and career development resources for underserved communities.",
   "main": "index.js",
   "scripts": {
-<<<<<<< HEAD
     "test": "echo \"Error: no test specified\" && exit 1"
 =======
     "start": "node index.js",
     "test": "jest"
->>>>>>> updates-branch
+=======
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
@@ -22,7 +22,6 @@
   "bugs": {
     "url": "https://github.com/munyaneza-w/ISHURI-APP/issues"
   },
-<<<<<<< HEAD
   "homepage": "https://github.com/munyaneza-w/ISHURI-APP#readme"
 }
 =======
@@ -38,4 +37,6 @@
     "typescript-eslint": "^8.37.0"
   }
 }
->>>>>>> updates-branch
+
+  "homepage": "https://github.com/munyaneza-w/ISHURI-APP#readme"
+}
