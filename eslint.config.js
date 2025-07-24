@@ -30,5 +30,11 @@ export default tseslint.config(
     rules: {
       "@typescript-eslint/no-require-imports": "off",
     },
+  }, {
+    files: ["index.js", "sum.js", "sum.test.js"],
+    rules: {
+      "no-undef": "off",
+      "@typescript-eslint/no-require-imports": "off",
+    },
   }
 );
