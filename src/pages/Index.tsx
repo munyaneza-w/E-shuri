@@ -36,7 +36,7 @@ const Index = () => {
 
   return (
     <div className="min-h-screen bg-background">
-      <Header userRole={profile.role as any} profile={profile} />
+      <Header userRole={profile.role} profile={profile} />
       {renderDashboard()}
     </div>
   );
