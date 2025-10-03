@@ -1,123 +1,73 @@
-# eShuri - Digital Learning Platform
+# Welcome to your Lovable project
 
-**eShuri** is a web platform designed to bridge Rwanda’s education gap by providing curriculum-aligned lessons, assessments, and collaborative tools for secondary school students.
+## Project info
 
----
+**URL**: https://lovable.dev/projects/65f39f5c-117c-403b-b6da-de5678605967
 
-## Features
+## How can I edit this code?
 
-- **Modern Frontend**: A responsive and user-friendly interface built with **React**, **Vite**, and **Tailwind CSS** (using shadcn/ui).
-- **Scalable Backend**: Powered by **Supabase** for database (PostgreSQL), authentication, and instant APIs.
-- Continuous Integration (CI) pipeline configured with GitHub Actions to ensure code quality
-- Linting and unit testing automated on Pull Requests
-- Modular and scalable codebase designed for easy extension
-- Infrastructure prepared for containerization and cloud deployment (next phases)
+There are several ways of editing your application.
 
----
+**Use Lovable**
 
-## Project Structure
+Simply visit the [Lovable Project](https://lovable.dev/projects/65f39f5c-117c-403b-b6da-de5678605967) and start prompting.
 
-```
-ishuri-app/
-├── public/           # Static assets
-├── src/              # Main application source code (React components, etc.)
-├── supabase/         # Supabase migrations and configuration
-├── terraform/        # Terraform files for Azure infrastructure
-├── .dockerignore
-├── Dockerfile        # Production Docker configuration
-├── package.json
-└── vite.config.ts    # Vite configuration
-```
+Changes made via Lovable will be committed automatically to this repo.
 
----
+**Use your preferred IDE**
 
-## Getting Started
+If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
 
-### Prerequisites
+The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
 
-- [Node.js](https://nodejs.org/en/) (version 20 or higher recommended)
-- [npm](https://www.npmjs.com/get-npm) (comes with Node.js)
+Follow these steps:
 
----
+```sh
+# Step 1: Clone the repository using the project's Git URL.
+git clone <YOUR_GIT_URL>
 
-### Installation
+# Step 2: Navigate to the project directory.
+cd <YOUR_PROJECT_NAME>
 
-1. Clone the repository:
+# Step 3: Install the necessary dependencies.
+npm i
 
-   ```bash
-   git clone https://github.com/munyaneza-w/ISHURI-APP.git 
-   cd e-shuri-connect
-   ```
-
-2. Install dependencies:
-
-   ```bash
-   npm install
-   ```
-
-## Running the App Locally
-
-To start the development server, run:
-
-```bash
+# Step 4: Start the development server with auto-reloading and an instant preview.
 npm run dev
 ```
 
-The application will be available at `http://localhost:5173`.
+**Edit a file directly in GitHub**
 
-## Running with Docker
+- Navigate to the desired file(s).
+- Click the "Edit" button (pencil icon) at the top right of the file view.
+- Make your changes and commit the changes.
 
-To run the application using Docker, ensure you have Docker installed.
+**Use GitHub Codespaces**
 
-1. Build the Docker image:
-   ```bash
-   docker build -t eshuri-app .
-   ```
+- Navigate to the main page of your repository.
+- Click on the "Code" button (green button) near the top right.
+- Select the "Codespaces" tab.
+- Click on "New codespace" to launch a new Codespace environment.
+- Edit files directly within the Codespace and commit and push your changes once you're done.
 
-2. Run the container:
-   ```bash
-   docker run -p 8080:80 -d eshuri-app
-   ```
+## What technologies are used for this project?
 
-The application will be accessible at http://localhost:8080.
+This project is built with:
 
-## Running Tests
+- Vite
+- TypeScript
+- React
+- shadcn-ui
+- Tailwind CSS
 
-Run unit tests with:
+## How can I deploy this project?
 
-```bash
-npm test
-```
+Simply open [Lovable](https://lovable.dev/projects/65f39f5c-117c-403b-b6da-de5678605967) and click on Share -> Publish.
 
-## Linting
+## Can I connect a custom domain to my Lovable project?
 
-Check code styles and errors with:
+Yes, you can!
 
-```bash
-npm run lint
-```
+To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
 
-## Continuous Integration
-
-This project uses GitHub Actions for Continuous Integration. Every Pull Request triggers the following checks:
-
-Dependency installation
-
-Code linting with ESLint
-
-Running unit tests
-
-## Contributing
-Contributions are welcome! Please:
-
-- Fork the repository.
-- Create a new branch for your feature or bug fix.
-- Commit your changes and open a Pull Request for review.
-
-## License
-
-This project is licensed under the ISC License.
-
-## Contact
-
-For questions or support, open an issue on GitHub or contact me at w.munyaneza134@gmail.com.
+Read more here: [Setting up a custom domain](https://docs.lovable.dev/features/custom-domain#custom-domain)
