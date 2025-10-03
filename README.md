@@ -1,73 +1,143 @@
-# Welcome to your Lovable project
+## 📘 E-shuri – Rwanda Digital Learning Platform
+E-shuri (Electronic Class) is a web-based learning platform designed to empower students and teachers across Rwanda with curriculum-aligned digital content. The platform provides subjects, quizzes, and progress tracking to enhance learning outcomes, accessibility, and digital literacy.
+* 🌍 “Learn, Grow, and Excel with Quality Digital Education.” 
 
-## Project info
+# 🚀 Features
+User Authentication – Secure login and account management for students and teachers.
 
-**URL**: https://lovable.dev/projects/65f39f5c-117c-403b-b6da-de5678605967
 
-## How can I edit this code?
+Subject Content Access – Browse subjects (Biology, Chemistry, Computer Science, Mathematics, etc.) with structured materials.
 
-There are several ways of editing your application.
 
-**Use Lovable**
+Quizzes & Assessments – Practice tests to evaluate knowledge and skills.
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/65f39f5c-117c-403b-b6da-de5678605967) and start prompting.
 
-Changes made via Lovable will be committed automatically to this repo.
+Progress Tracking – Monitor performance and learning history.
 
-**Use your preferred IDE**
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+Responsive Design – Works seamlessly on desktops, tablets, and mobile devices.
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
 
-Follow these steps:
+Teacher Tools – Upload and organize educational content.
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+# 📂 Project Structure
+munyaneza-w/
+│── public/               # Static assets  
+│── src/                  # Source code (React components, pages, logic)  
+│── supabase/             # Database configuration and auth  
+│── .env                  # Environment variables  
+│── index.html            # Entry HTML file  
+│── package.json          # Dependencies and scripts  
+│── vite.config.ts        # Vite configuration  
+│── tailwind.config.ts    # Tailwind CSS config  
+│── tsconfig.json         # TypeScript configuration  
+│── README.md             # Documentation  
 
-# Step 3: Install the necessary dependencies.
-npm i
+# 🎨 Design
+The design process focused on simplicity, usability, and inclusivity.
+Wireframes & Mockups: Designed using Figma
+Link: https://www.figma.com/design/gMHuPsN8kFgjO33YootGcX/E-shuri?node-id=0-1&m=dev&t=uzBCgYGg36q2rtKQ-1
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
-npm run dev
-```
+Styling Framework: Tailwind CSS + custom components.
 
-**Edit a file directly in GitHub**
+UI Principles: Minimal, clean, and accessible for students aged 11–18.
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
 
-**Use GitHub Codespaces**
+# 📸 Screenshots:
+## Screenshots
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+### Home
+![Home](src/assets/Screenshots/Home.png)
 
-## What technologies are used for this project?
+### Home1
+![Home1](src/assets/Screenshots/Home1.png)
 
-This project is built with:
+### Sign In Page
+![Sign In Page](src/assets/Screenshots/Sign In Page.png)
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+### Teachers Dashboard Page
+![Teachers Dashboard Page](src/assets/Screenshots/Teachers Dashboard Page.png)
 
-## How can I deploy this project?
+### Subject Page
+![Subject Page](src/assets/Screenshots/Subject Page.png)
 
-Simply open [Lovable](https://lovable.dev/projects/65f39f5c-117c-403b-b6da-de5678605967) and click on Share -> Publish.
+### Student Dashboard Page
+![Student Dashboard Page](src/assets/Screenshots/Student Dashboard Page.png)
 
-## Can I connect a custom domain to my Lovable project?
 
-Yes, you can!
 
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
+# ⚙️ Technology Stack
+Frontend
+React.js + TypeScript
 
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/features/custom-domain#custom-domain)
+
+Tailwind CSS (responsive UI)
+
+
+Vite (fast build tool)
+
+
+Backend & Database
+Node.js + Express.js (API server)
+
+
+Supabase (Authentication + PostgreSQL Database)
+
+
+# Development Tools
+Visual Studio Code
+
+
+Git & GitHub
+
+
+Postman (API testing)
+
+
+# Deployment
+Azure (web hosting and database)
+
+
+# 🛠️ Setup Instructions
+Follow these steps to set up and run the project locally:
+* Clone the repository
+
+ git clone https://github.com/munyaneza-w/E-shuri.git
+Install dependencies
+
+ npm install
+Configure environment variables
+
+
+# Create a .env file in the root directory
+
+
+Run the project
+
+ npm run dev
+
+
+# Access the app
+ Open http://localhost:5800/ in your browser.
+
+
+
+# ☁️ Deployment Plan
+Cloud Hosting: Microsoft Azure
+
+
+Database Hosting: Supabase PostgreSQL
+
+
+Continuous Deployment: GitHub → Azure pipeline for automatic builds
+
+
+* Domain: e-shuri.rw (planned)
+
+
+# 🎥 Video Demo
+📌 Here is the video link: https://drive.google.com/drive/folders/1WoHFKp3-gKm2w65di0vTfsx0kGqWrGJ6?usp=sharing 
+# 📖 License
+This project is licensed under the MIT License – free to use, modify, and distribute.
+
