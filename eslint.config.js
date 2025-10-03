@@ -5,15 +5,13 @@ import reactRefresh from "eslint-plugin-react-refresh";
 import tseslint from "typescript-eslint";
 
 export default tseslint.config(
-  { ignores: ["dist/"] },
-  js.configs.recommended,
-  ...tseslint.configs.recommended,
+  { ignores: ["dist"] },
   {
+    extends: [js.configs.recommended, ...tseslint.configs.recommended],
     files: ["**/*.{ts,tsx}"],
     languageOptions: {
-      globals: {
-        ...globals.browser,
-      },
+      ecmaVersion: 2020,
+      globals: globals.browser,
     },
     plugins: {
       "react-hooks": reactHooks,
@@ -25,16 +23,4 @@ export default tseslint.config(
       "@typescript-eslint/no-unused-vars": "off",
     },
   },
-  {
-    files: ["tailwind.config.ts"],
-    rules: {
-      "@typescript-eslint/no-require-imports": "off",
-    },
-  }, {
-    files: ["index.js", "sum.js", "sum.test.js"],
-    rules: {
-      "no-undef": "off",
-      "@typescript-eslint/no-require-imports": "off",
-    },
-  }
 );
