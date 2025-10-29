@@ -32,7 +32,7 @@ const Index = () => {
                 Learn, Grow, and Excel with Quality Digital Education
               </h2>
               <p className="text-xl md:text-2xl mb-8 text-white/90">
-                Empowering students aged 11-18 and teachers across Rwanda with engaging, curriculum-aligned content
+                Empowering students aged 12-20 and teachers across Rwanda with engaging, curriculum-aligned content
               </p>
               <div className="flex flex-col sm:flex-row gap-4">
                 <Button
@@ -167,7 +167,7 @@ const Index = () => {
         <div className="container mx-auto px-4 text-center relative z-10">
           <h2 className="text-4xl md:text-5xl font-bold mb-6">Ready to Join E-shuri?</h2>
           <p className="text-xl md:text-2xl mb-10 text-white/90 max-w-3xl mx-auto">
-            Join thousands of students aged 11-18 and teachers transforming education across Rwanda
+            Join thousands of students aged 12-20 and teachers transforming education across Rwanda
           </p>
           <Button
             size="lg"

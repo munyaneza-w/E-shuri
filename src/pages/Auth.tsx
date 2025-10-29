@@ -138,7 +138,7 @@ const Auth = () => {
                     id="signin-email"
                     name="email"
                     type="email"
-                    placeholder="student@example.com"
+                    placeholder="studentname@gmail.com"
                     required
                   />
                 </div>
@@ -176,7 +176,7 @@ const Auth = () => {
                     id="signup-email"
                     name="email"
                     type="email"
-                    placeholder="student@example.com"
+                    placeholder="studentnames@gmail.com"
                     required
                   />
                 </div>
