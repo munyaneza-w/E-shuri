@@ -64,6 +64,16 @@ UI Principles: Minimal, clean, and accessible for students aged 11–18.
 
 ### Student Dashboard Page
 ![Student Dashboard Page](src/assets/Screenshots/Student Dashboard Page.png)
+![Sign In Page](src/assets/Screenshots/SignIn.png)
+
+### Teachers Dashboard Page
+![Teachers Dashboard Page](src/assets/Screenshots/TeachersDashboard.png)
+
+### Subject Page
+![Subject Page](src/assets/Screenshots/Subject.png)
+
+### Student Dashboard Page
+![Student Dashboard Page](src/assets/Screenshots/StudentDashboard.png)
 
 
 
